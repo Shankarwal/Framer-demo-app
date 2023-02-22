@@ -142,7 +142,7 @@ li span.active::before {
 .modal {
   text-align: center;
   margin: 0 auto;
-  width: 18rem;
+  max-width: 18rem;
   /* height: 20rem; */
   border-radius: 10px;
   box-shadow: 1px 1px 22px 2px rgba(255, 255, 255, 0.5);
@@ -229,7 +229,7 @@ li span.active::before {
   }
 
   .modal {
-    width: 16rem;
+    max-width: 16rem;
   }
 
   .modal p {
