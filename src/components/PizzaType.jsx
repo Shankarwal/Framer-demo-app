@@ -71,6 +71,8 @@ const PizzaType = ({ pizza, addBase }) => {
           <motion.button
             className="btn secondary"
             variants={buttonVariants}
+            initial="hidden"
+            animate="visible"
             whileHover="hover"
           >
             next
