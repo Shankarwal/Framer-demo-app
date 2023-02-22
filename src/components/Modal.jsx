@@ -2,10 +2,12 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Link, useNavigate } from "react-router-dom";
 
 const backdrop = {
-  hidden: { opacity: 0 },
+  hidden: { y: "-100vh", opacity: 0 },
   visible: {
+    y: 0,
     opacity: 1,
     transition: {
+      duration: 0.3,
       when: "beforeChildren",
     },
   },
