@@ -227,4 +227,15 @@ li span.active::before {
   .header svg {
     width: 32px;
   }
+
+  .modal {
+    width: 16rem;
+  }
+
+  .modal p {
+    font-size: 0.75rem;
+  }
+  .emoji {
+    font-size: 5rem;
+  }
 }
